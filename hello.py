@@ -1,0 +1,1 @@
+print("abhishek-python-foundations: day 1")
