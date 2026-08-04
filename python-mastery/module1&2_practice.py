@@ -5,7 +5,7 @@
 name = "Abhishek"
 age = 20
 height = 5.10
-age_float= 25.5
+age_float= 20.5
 is_bool = True
 
 print("Name:", name)
@@ -32,8 +32,8 @@ print(type(value))
 # Conversion edge cases:
 
 # 4. Predict, then run- and explain in a comment why it fails:
-# int("25.5") int() can only convert a string if it looks like a whole number, with absolutely nothing else in it.
-# no decimal point, no letters, nothing. "25" works fine. "25.5" has a (.) in it, which int() simply doesn't know how to handle.
+# int("20.5") int() can only convert a string if it looks like a whole number, with absolutely nothing else in it.
+# no decimal point, no letters, nothing. "20" works fine. "20.5" has a (.) in it, which int() simply doesn't know how to handle.
 
 # 5. Predict, then run:
 print(int(9.99)) # if we use int() function it chops off the decimal.
@@ -51,7 +51,8 @@ print(type(pri_dis)) # the answer is in decimal so that's why the answer is in f
 name = "Abhishek"
 age = 20
 print(f"{name} is {age} years old.")
+print(name, "is", age, "years old.")
 
-# 8. Debug this broken code (type it exactly as shown,run it,read the actual error message,then fix it):
+# 8. Debug this broken code (type it exactly as shown, run it, read the actual error message,then fix it):
 name = "Abhishek"
 print(name)

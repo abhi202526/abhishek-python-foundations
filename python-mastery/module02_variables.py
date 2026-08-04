@@ -3,7 +3,7 @@
 # The core data types
 # Type	       Holds	                                         Example	         type() shows
 # int	   whole numbers, positive or negative	                age = 20	         <class 'int'>
-# float	   decimal numbers	                                    price = 99.5	     <class 'float'>
+# float	   decimal numbers, positive or negative	            price = 99.5	     <class 'float'>
 # str	   text, always quoted  	                            name = "Abhishek"	 <class 'str'>
 # bool	   only True or False (capital letters, no quotes)	    is_active = True	 <class 'bool'>
 
@@ -12,13 +12,13 @@ age = 20
 print(type(age))
 
 # Type Conversion - changing one type into another, deliberately
-int("25")
-float("25.5")
-str(25)
+# int("25")
+# float("25.5")
+# str(25)
 
 # Two things that will fail, and why:
-int("hello") # crashes - "hello" isn't a valid number, no way to convert it
-int(3.9) # works, but truncates (doesn't round!) gives 3, not 4
+# int("hello") # crashes - "hello" isn't a valid number, no way to convert it
+# int(3.9) # works, but truncates (doesn't round!) gives 3, not 4
 
 name = "Abhishek"
 age = 20
