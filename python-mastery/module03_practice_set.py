@@ -29,7 +29,7 @@ print(a % b == 0)
 # 5. Short-circuit test — predict what this prints, and why it doesn't crash:
 x = 0
 print(x != 0 and (10 / x > 2))
-# why: Because in why condition we need both the condition true and here first condition is false so that's why the final output will be false not true even though x = 0.
+# why: Because in and condition we need both the condition true and here first condition is false so that's why the final output will be false not true even though x = 0.
 
 # 6. Combine everything: a person can vote if their age is 18 or above AND they are a citizen. Create two variables (age, is_citizen), write one line using and that prints whether they can vote, then test it with two different value combinations (change the variables and rerun) to confirm both True and False cases work.
 age = 18
