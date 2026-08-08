@@ -11,6 +11,7 @@ Everything here is from a guided, concept-first Python track — deep explanatio
 - **Module 3** — Operators (arithmetic, comparison, logical, assignment), short-circuit evaluation
 - **Module 4** — Safe input handling with try/except, specific vs. combined exception handling
 - **Module 5** — Conditionals (if/elif/else), nested logic, truthy/falsy — including a deliberately reproduced condition-ordering bug (the same bug class behind real access-control exploits in smart contracts)
+- **Module 6** — Loops (while, for, break, continue), infinite loop recovery with Ctrl+C, validated input patterns, running totals
 
 Each module includes working code *and* intentionally broken versions, used to understand exactly why something fails — the habit of testing edge cases and reading errors carefully is being built deliberately from day one, since it's the core skill an auditor actually needs.
 
